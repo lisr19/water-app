@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "上报信息填写",
+  "enablePullDownRefresh": false,
+  "opacity": "0.9",
+  "font-family": "SFProDisplay-Medium",
+  "font-size": "17px",
+  "color": "#000000",
+  "letter-spacing": "0",
+  "text-align": "center",
+  "usingComponents": {
+    "u-form": "/node-modules/uview-ui/components/u-form/u-form",
+    "u-form-item": "/node-modules/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/node-modules/uview-ui/components/u-input/u-input",
+    "u-upload": "/node-modules/uview-ui/components/u-upload/u-upload",
+    "u-select": "/node-modules/uview-ui/components/u-select/u-select"
+  }
+}

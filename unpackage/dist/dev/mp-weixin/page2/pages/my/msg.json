@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "消息通知",
+  "usingComponents": {
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast"
+  }
+}

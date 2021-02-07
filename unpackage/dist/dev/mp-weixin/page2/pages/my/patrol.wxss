@@ -1,0 +1,59 @@
+
+.card {
+		margin: 0rpx 30rpx 30rpx 30rpx;
+		padding:20rpx 20rpx 40rpx 20rpx;
+		border: #FFFFFF solid 1rpx;
+		border-radius: 8px;
+		background: #FFFFFF;
+		box-shadow: 0 2px 6px 0 rgba(0,0,0,0.09);
+		border-radius: 5px;
+}
+.content{
+	font-size:30rpx;
+	font-weight: bold;
+	color:#333333
+}
+.time{
+	text-align: right;
+	padding-top:10rpx;
+	font-size:25rpx
+}
+.patrol_list{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	font-size:30rpx;
+	font-weight: bold;
+}
+.patrol{
+	margin-top: 20rpx;
+	-webkit-flex: 1;
+	-webkit-box-flex: 1;
+	        flex: 1;
+}
+.patrol_status{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	width:150rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-weight: normal;
+	font-size:28rpx
+}
+.verity{
+	margin-top:20rpx;
+	padding-top:20rpx;
+	border-top:1rpx solid #e1e1e1;
+}
+.verity ._span{
+	margin-left:20rpx
+}
+

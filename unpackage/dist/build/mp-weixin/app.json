@@ -1,0 +1,84 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/index/video",
+    "pages/dataCenter/dataCenter",
+    "pages/dataCenter/video",
+    "pages/dataCenter/device",
+    "pages/my/index",
+    "pages/problem_report/problemReport"
+  ],
+  "subPackages": [
+    {
+      "root": "page2",
+      "pages": [
+        "pages/my/u-avatar-cropper",
+        "pages/my/msg",
+        "pages/my/patrol",
+        "pages/my/patrol_detail",
+        "pages/my/patrol_finish",
+        "pages/problem_report/problemReportBreakup",
+        "pages/problem_report/detail",
+        "pages/monitor/waterData",
+        "pages/monitor/waterInspectionFinish",
+        "pages/monitor/waterInspection",
+        "pages/monitor/list",
+        "pages/monitor/waterEnmMonitor",
+        "pages/monitor/waterMonitor",
+        "pages/my/question"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "水环境监测",
+    "enablePullDownRefresh": false,
+    "opacity": "0.9",
+    "font-family": "SFProDisplay-Medium",
+    "font-size": "17px",
+    "color": "#000000",
+    "letter-spacing": "0",
+    "text-align": "center"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#0060f4",
+    "borderStyle": "white",
+    "list": [
+      {
+        "iconPath": "static/icon/zxjc.png",
+        "selectedIconPath": "static/icon/zxjc_r.png",
+        "pagePath": "pages/index/index",
+        "text": "在线监测"
+      },
+      {
+        "iconPath": "static/icon/sjzx.png",
+        "selectedIconPath": "static/icon/sjzx_r.png",
+        "pagePath": "pages/dataCenter/dataCenter",
+        "text": "数据中心"
+      },
+      {
+        "iconPath": "static/icon/wtsb.png",
+        "selectedIconPath": "static/icon/wtsb_r.png",
+        "pagePath": "pages/problem_report/problemReport",
+        "text": "问题上报"
+      },
+      {
+        "iconPath": "static/icon/my.png",
+        "selectedIconPath": "static/icon/my_r.png",
+        "pagePath": "pages/my/index",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

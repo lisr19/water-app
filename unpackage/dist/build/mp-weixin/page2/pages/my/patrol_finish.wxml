@@ -1,0 +1,1 @@
+<view><image src="/static/icon/finish.png"></image><view class="title">巡检完成</view><view class="det">巡检已完成，巡检历史可在巡检记录中查看</view><button data-event-opts="{{[['tap',[['back']]]]}}" bindtap="__e"><view>完成</view></button></view>

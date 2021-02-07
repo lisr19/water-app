@@ -1,0 +1,188 @@
+{
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+	{
+		"path": "pages/login/login"
+	},
+    {
+      "path": "pages/index/index"
+    },
+	{
+	  "path": "pages/index/video"
+	},
+    {
+      "path": "pages/dataCenter/dataCenter",
+      "style": {
+        "navigationBarTitleText": "数据中心",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/dataCenter/video",
+      "style": {
+        "navigationBarTitleText": "视频监控",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/dataCenter/device",
+      "style": {
+        "navigationBarTitleText": "监测设备",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/my/index",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/problem_report/problemReport",
+      "style": {
+        "navigationBarTitleText": "问题上报",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "subPackages": [{
+    "root": "page2",
+    "pages": [
+      {
+        "path": "pages/my/u-avatar-cropper",
+        "style": {
+          "navigationBarTitleText": "裁剪头像"
+        }
+      },
+      {
+        "path": "pages/my/msg",
+        "style": {
+          "navigationBarTitleText": "消息通知"
+        }
+      },
+      {
+        "path": "pages/my/patrol",
+        "style": {
+          "navigationBarTitleText": "巡检任务"
+        }
+      },
+      {
+        "path": "pages/my/patrol_detail"
+      },
+      {
+        "path": "pages/my/patrol_finish"
+      },
+      {
+        "path": "pages/problem_report/problemReportBreakup",
+        "style": {
+          "navigationBarTitleText": "上报信息填写",
+          "enablePullDownRefresh": false,
+          "opacity": "0.9",
+          "font-family": "SFProDisplay-Medium",
+          "font-size": "17px",
+          "color": "#000000",
+          "letter-spacing": "0",
+          "text-align": "center"
+        }
+      },
+      {
+        "path": "pages/problem_report/detail",
+        "style": {
+          "navigationBarTitleText": "问题上报详情",
+          "enablePullDownRefresh": false
+        }
+      },
+      {
+        "path": "pages/monitor/waterData",
+        "style": {
+          "navigationBarTitleText": "水资源监测趋势",
+          "enablePullDownRefresh": false
+        }
+      },
+      {
+        "path": "pages/monitor/waterInspectionFinish"
+      },
+      {
+        "path": "pages/monitor/waterInspection",
+        "style": {
+          "navigationBarTitleText": "巡检详情",
+          "enablePullDownRefresh": false
+        }
+      },
+      {
+        "path": "pages/monitor/list",
+        "style": {
+          "navigationBarTitleText": "巡检任务列表",
+          "enablePullDownRefresh": false
+        }
+      },
+      {
+        "path": "pages/monitor/waterEnmMonitor",
+        "style": {
+          "navigationBarTitleText": "水环境监测",
+          "enablePullDownRefresh": false
+        }
+      },
+      {
+        "path": "pages/monitor/waterMonitor",
+        "style": {
+          "navigationBarTitleText": "水质监测",
+          "enablePullDownRefresh": false
+        }
+      },
+      {
+        "path": "pages/my/question",
+        "style": {
+          "navigationBarTitleText": "问题列表",
+          "enablePullDownRefresh": false
+        }
+      }
+    ]
+  }],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "水环境监测",
+    "enablePullDownRefresh": false,
+    "opacity": "0.9",
+    "font-family": "SFProDisplay-Medium",
+    "font-size": "17px",
+    "color": "#000000",
+    "letter-spacing": "0",
+    "text-align": "center"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#0060f4",
+    "borderStyle":"white",
+    "list": [
+      {
+        "iconPath": "static/icon/zxjc.png",
+        "selectedIconPath": "static/icon/zxjc_r.png",
+        "pagePath": "pages/index/index",
+        "text": "在线监测"
+      },
+      {
+        "iconPath": "static/icon/sjzx.png",
+        "selectedIconPath": "static/icon/sjzx_r.png",
+        "pagePath": "pages/dataCenter/dataCenter",
+        "text": "数据中心"
+      },
+      {
+        "iconPath": "static/icon/wtsb.png",
+        "selectedIconPath": "static/icon/wtsb_r.png",
+        "pagePath": "pages/problem_report/problemReport",
+        "text": "问题上报"
+      } ,
+      {
+        "iconPath": "static/icon/my.png",
+        "selectedIconPath": "static/icon/my_r.png",
+        "pagePath": "pages/my/index",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

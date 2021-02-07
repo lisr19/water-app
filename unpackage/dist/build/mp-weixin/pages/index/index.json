@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "u-notice-bar": "/node-modules/uview-ui/components/u-notice-bar/u-notice-bar",
+    "lv-select": "/components/lv-select/lv-select",
+    "u-select": "/node-modules/uview-ui/components/u-select/u-select",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup"
+  }
+}

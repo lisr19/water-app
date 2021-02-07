@@ -1,0 +1,305 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.node_infor.data-v-57280228 {
+  overflow: auto;
+  text-align: center;
+}
+.node_infor .title.data-v-57280228 {
+  padding: 25rpx;
+  font-size: 35rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.node_infor .content.data-v-57280228 {
+  text-align: justify;
+  text-justify: newspaper;
+  word-break: break-all;
+  padding-left: 10rpx;
+}
+.node_infor .content .coordinate.data-v-57280228 {
+  padding-top: 10rpx;
+}
+.node_infor .content .infor_title.data-v-57280228 {
+  padding-top: 20rpx;
+  display: block;
+  color: #DA6F14;
+  font-size: 30rpx;
+}
+.node_infor .content .inforbox.data-v-57280228 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.node_infor .content .inforbox .infor_content.data-v-57280228 {
+  width: 33.33%;
+  display: block;
+  text-align: center;
+  padding-bottom: 10rpx;
+  font-size: 25rpx;
+}
+.node_infor .content .inforbox .unit.data-v-57280228 {
+  margin-left: 10rpx;
+}
+.node_infor .content .button.data-v-57280228 {
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+  padding: 10rpx;
+  width: 200rpx;
+  font-size: 26rpx;
+  background-color: #2B85E4;
+  color: #FFFFFF;
+  border-radius: 10rpx;
+  text-align: center;
+}
+.warning.data-v-57280228 {
+  position: absolute;
+  background-color: #F37D66;
+  left: 0rpx;
+  top: 0rpx;
+  width: 100%;
+}
+.warning view.data-v-57280228 {
+  margin-top: 25rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 15px;
+  color: #FFFFFF;
+  letter-spacing: 0.18px;
+  text-align: center;
+}
+.bigbox.data-v-57280228 {
+  position: absolute;
+  top: 0rpx;
+  width: 100%;
+  height: 380rpx;
+}
+.bigbox1.data-v-57280228 {
+  position: absolute;
+  top: 90rpx;
+  width: 100%;
+  height: 380rpx;
+}
+.autimag.data-v-57280228 {
+  position: absolute;
+  left: 22rpx;
+  top: 14rpx;
+  width: 80rpx;
+  height: 80rpx;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 50%;
+}
+.autimag image.data-v-57280228 {
+  margin-top: 15rpx;
+  margin-left: 18rpx;
+  width: 45rpx;
+  height: 45rpx;
+}
+.search.data-v-57280228 {
+  position: absolute;
+  left: 128rpx;
+  top: 18rpx;
+}
+.type.data-v-57280228 {
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  top: 120rpx;
+  right: 32rpx;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+.type image.data-v-57280228 {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.water.data-v-57280228 {
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  top: 248rpx;
+  right: 32rpx;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+.water image.data-v-57280228 {
+  margin-top: 15rpx;
+  margin-left: 20rpx;
+  width: 40rpx;
+  height: 50rpx;
+}
+.backup.data-v-57280228 {
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  top: 382rpx;
+  right: 32rpx;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+.backup image.data-v-57280228 {
+  margin-top: 15rpx;
+  margin-left: 20rpx;
+  width: 40rpx;
+  height: 45rpx;
+}
+.video.data-v-57280228 {
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  top: 512rpx;
+  right: 32rpx;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+.video image.data-v-57280228 {
+  margin-top: 15rpx;
+  margin-left: 18rpx;
+  width: 48rpx;
+  height: 48rpx;
+}
+.left_top.data-v-57280228 {
+  width: 100%;
+  height: 328rpx;
+  border-bottom: #F1F1F1 solid 16rpx;
+}
+.left_middle.data-v-57280228 {
+  width: 100%;
+  height: 638rpx;
+}
+.left_bottom.data-v-57280228 {
+  margin-top: 18rpx;
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.left_bottom .btn.data-v-57280228 {
+  background: #F5F5F5;
+  border-radius: 38rpx;
+  width: 300rpx;
+  height: 76rpx;
+  line-height: 76rpx;
+  color: #8C8C8C;
+  font-family: PingFangSC-Regular;
+  font-size: 38rpx;
+  text-align: center;
+}
+.left_autimag.data-v-57280228 {
+  margin-left: 162rpx;
+  margin-top: 54rpx;
+  width: 162rpx;
+  height: 162rpx;
+  border-radius: 50%;
+}
+.left_top .name.data-v-57280228 {
+  margin-top: 10rpx;
+  font-family: PingFangSC-Medium;
+  font-size: 19px;
+  font-weight: 600;
+  color: #333333;
+  letter-spacing: 0.23px;
+  text-align: center;
+}
+.left_bottom button.data-v-57280228 {
+  margin-left: 92rpx;
+  margin-right: 92rpx;
+  background-color: #F5F5F5;
+  border-radius: 19px;
+}
+.card.data-v-57280228 {
+  width: 100%;
+  height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.card image.data-v-57280228 {
+  margin-top: 45rpx;
+  margin-left: 96rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.card view.data-v-57280228 {
+  margin-top: 40rpx;
+  margin-left: 22rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 19px;
+  color: #333333;
+  letter-spacing: 0.23px;
+  text-align: center;
+}
+.edit.data-v-57280228 {
+  /* background-color: #00A1FF; */
+  position: absolute;
+  left: 340rpx;
+  top: 14rpx;
+  width: 120rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  background-color: #F5F5F5;
+  border-radius: 19rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+#cot_value.data-v-57280228 {
+  font-weight: bold;
+  font-size: 30rpx;
+}
+.item-title.data-v-57280228 {
+  position: relative;
+  padding: 0rpx 20rpx 10rpx 20rpx;
+  border-bottom: 1rpx solid #e1e1e1;
+  margin-bottom: 10rpx;
+}
+.u-item-title.data-v-57280228 {
+  margin-left: 20rpx;
+  font-size: 27rpx;
+  font-family: PingFangSC-Medium;
+  color: #DA6F14;
+}
+.u-item-title.data-v-57280228:after {
+  position: absolute;
+  width: 4px;
+  top: 5rpx;
+  height: 30rpx;
+  content: "";
+  left: 20rpx;
+  border-radius: 10px;
+  background-color: #DA6F14;
+}
+

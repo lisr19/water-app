@@ -1,0 +1,21 @@
+
+.card {
+		margin: 30rpx;
+		padding:20rpx;
+		border: #FFFFFF solid 1rpx;
+
+
+		background: #FFFFFF;
+		box-shadow: 0 2px 6px 0 rgba(0,0,0,0.09);
+		border-radius: 5px;
+}
+.content{
+	font-size:30rpx;
+	font-weight: bold;
+}
+.time{
+	text-align: right;
+	padding-top:10rpx;
+	font-size:28rpx
+}
+

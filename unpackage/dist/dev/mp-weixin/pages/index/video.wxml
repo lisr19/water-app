@@ -1,0 +1,1 @@
+<view class="main data-v-5400ee15"><web-view src="{{camera_url}}" class="data-v-5400ee15"></web-view></view>

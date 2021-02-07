@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "问题上报",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

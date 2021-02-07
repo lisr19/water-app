@@ -1,0 +1,1 @@
+<view><block wx:for="{{listData}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view><view class="card"><view class="content">{{item.content}}</view><view class="time">{{item.last_time}}</view></view></view></block><u-toast class="vue-ref" vue-id="0acdd583-1" data-ref="uToast" bind:__l="__l"></u-toast></view>

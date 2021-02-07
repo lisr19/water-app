@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "水质监测",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "lv-select": "/components/lv-select/lv-select",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}
